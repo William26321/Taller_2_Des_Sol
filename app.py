@@ -196,12 +196,12 @@ def generate_control_card():
         ]
     )
 
-
+# Se agrega comentario para el layout
 app.layout = html.Div(
     id="app-container",
     children=[
         
-        # Left column
+        # Left column a
         html.Div(
             id="left-column",
             className="four columns",
@@ -213,7 +213,7 @@ app.layout = html.Div(
             ],
         ),
         
-        # Right column
+        # Right column b
         html.Div(
             id="right-column",
             className="eight columns",
